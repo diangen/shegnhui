@@ -1,0 +1,169 @@
+.nav {
+  width: 100%;
+  height: 69px;
+  background: #333;
+}
+.comment .logo {
+  height: 48px;
+  width: 435px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: 268px 48px;
+}
+.comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 69px;
+}
+.comment ul li {
+  float: left;
+  color: #fff;
+  padding: 0 25px;
+}
+
+.main {
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+.main img {
+  height: 450px;
+  width: 100%;
+}
+.main .input {
+  background: #fff;
+  width: 436px;
+  height: 41px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 30px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+.main .input p {
+  width: 98px;
+  color: #fff;
+  height: 100%;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #458b00;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+}
+.title h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.title span {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.car {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.car-item {
+  width: 379px;
+  height: 316px;
+  border: 1px solid #ccc;
+  padding: 2px 2px 0 2px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.car-item .car-log {
+  width: 118px;
+  height: 28px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #458b00;
+  position: absolute;
+}
+.car-item img {
+  width: 100%;
+  display: block;
+  height: 229px;
+}
+
+.car-item .car-title {
+  width: 100%;
+}
+.car-item .car-title > p {
+  margin: 12px 0 16px 0;
+  font-size: 14px;
+  display: inline-block;
+  color: #000;
+}
+.car-item .car-title .price {
+  box-sizing: border-box;
+  padding: 0 4px;
+}
+.car-item .car-title .price p {
+  font-size: 16px;
+}
+.car-item .car-title .price span {
+  font-size: 12px;
+  color: #ccc;
+}
+.car-item .car-title .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.car-item .car-title .price .new-price {
+  color: #ff4400;
+}
+.car-item .car-title .price .man {
+  font-size: 12px;
+}
+
+/* 页脚 */
+.footer {
+  height: 259px;
+  width: 100%;
+  margin-top: 40px;
+  background: #2d3436;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-item {
+  margin-top: 40px;
+  width: 300px;
+  height: 164px;
+  color: #fff;
+  text-align: center;
+}
+.footer-item h3 {
+  font-size: 26px;
+}
+.footer .footer-item li {
+  margin: 18px 0;
+  color: #b2bec3;
+}
+.bottom {
+  height: 65px;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
